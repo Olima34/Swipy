@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71A2C4F22DF39BA200165F4E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 71A2C4F12DF39BA200165F4E /* FirebaseAuth */; };
+		71A2C4F42DF39BA200165F4E /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 71A2C4F32DF39BA200165F4E /* FirebaseAuthCombine-Community */; };
+		71A2C4F62DF39BA200165F4E /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 71A2C4F52DF39BA200165F4E /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71A2C4D22DF397AA00165F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A2C4BC2DF397A900165F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A2C4C32DF397A900165F4E;
+			remoteInfo = Swipy;
+		};
+		71A2C4DC2DF397AA00165F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A2C4BC2DF397A900165F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A2C4C32DF397A900165F4E;
+			remoteInfo = Swipy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71A2C4C42DF397A900165F4E /* Swipy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A2C4D12DF397AA00165F4E /* SwipyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A2C4DB2DF397AA00165F4E /* SwipyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		71A2C4C62DF397A900165F4E /* Swipy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Swipy;
+			sourceTree = "<group>";
+		};
+		71A2C4D42DF397AA00165F4E /* SwipyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwipyTests;
+			sourceTree = "<group>";
+		};
+		71A2C4DE2DF397AA00165F4E /* SwipyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwipyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A2C4C12DF397A900165F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A2C4F22DF39BA200165F4E /* FirebaseAuth in Frameworks */,
+				71A2C4F62DF39BA200165F4E /* FirebaseCore in Frameworks */,
+				71A2C4F42DF39BA200165F4E /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A2C4CE2DF397AA00165F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A2C4D82DF397AA00165F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71A2C4BB2DF397A900165F4E = {
+			isa = PBXGroup;
+			children = (
+				71A2C4C62DF397A900165F4E /* Swipy */,
+				71A2C4D42DF397AA00165F4E /* SwipyTests */,
+				71A2C4DE2DF397AA00165F4E /* SwipyUITests */,
+				71A2C4C52DF397A900165F4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A2C4C52DF397A900165F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A2C4C42DF397A900165F4E /* Swipy.app */,
+				71A2C4D12DF397AA00165F4E /* SwipyTests.xctest */,
+				71A2C4DB2DF397AA00165F4E /* SwipyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A2C4C32DF397A900165F4E /* Swipy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A2C4E52DF397AA00165F4E /* Build configuration list for PBXNativeTarget "Swipy" */;
+			buildPhases = (
+				71A2C4C02DF397A900165F4E /* Sources */,
+				71A2C4C12DF397A900165F4E /* Frameworks */,
+				71A2C4C22DF397A900165F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71A2C4C62DF397A900165F4E /* Swipy */,
+			);
+			name = Swipy;
+			packageProductDependencies = (
+				71A2C4F12DF39BA200165F4E /* FirebaseAuth */,
+				71A2C4F32DF39BA200165F4E /* FirebaseAuthCombine-Community */,
+				71A2C4F52DF39BA200165F4E /* FirebaseCore */,
+			);
+			productName = Swipy;
+			productReference = 71A2C4C42DF397A900165F4E /* Swipy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71A2C4D02DF397AA00165F4E /* SwipyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A2C4E82DF397AA00165F4E /* Build configuration list for PBXNativeTarget "SwipyTests" */;
+			buildPhases = (
+				71A2C4CD2DF397AA00165F4E /* Sources */,
+				71A2C4CE2DF397AA00165F4E /* Frameworks */,
+				71A2C4CF2DF397AA00165F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A2C4D32DF397AA00165F4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				71A2C4D42DF397AA00165F4E /* SwipyTests */,
+			);
+			name = SwipyTests;
+			packageProductDependencies = (
+			);
+			productName = SwipyTests;
+			productReference = 71A2C4D12DF397AA00165F4E /* SwipyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71A2C4DA2DF397AA00165F4E /* SwipyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A2C4EB2DF397AA00165F4E /* Build configuration list for PBXNativeTarget "SwipyUITests" */;
+			buildPhases = (
+				71A2C4D72DF397AA00165F4E /* Sources */,
+				71A2C4D82DF397AA00165F4E /* Frameworks */,
+				71A2C4D92DF397AA00165F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A2C4DD2DF397AA00165F4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				71A2C4DE2DF397AA00165F4E /* SwipyUITests */,
+			);
+			name = SwipyUITests;
+			packageProductDependencies = (
+			);
+			productName = SwipyUITests;
+			productReference = 71A2C4DB2DF397AA00165F4E /* SwipyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A2C4BC2DF397A900165F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					71A2C4C32DF397A900165F4E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					71A2C4D02DF397AA00165F4E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 71A2C4C32DF397A900165F4E;
+					};
+					71A2C4DA2DF397AA00165F4E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 71A2C4C32DF397A900165F4E;
+					};
+				};
+			};
+			buildConfigurationList = 71A2C4BF2DF397A900165F4E /* Build configuration list for PBXProject "Swipy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A2C4BB2DF397A900165F4E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				71A2C4F02DF39BA200165F4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 71A2C4C52DF397A900165F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A2C4C32DF397A900165F4E /* Swipy */,
+				71A2C4D02DF397AA00165F4E /* SwipyTests */,
+				71A2C4DA2DF397AA00165F4E /* SwipyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A2C4C22DF397A900165F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A2C4CF2DF397AA00165F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A2C4D92DF397AA00165F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A2C4C02DF397A900165F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A2C4CD2DF397AA00165F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A2C4D72DF397AA00165F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71A2C4D32DF397AA00165F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A2C4C32DF397A900165F4E /* Swipy */;
+			targetProxy = 71A2C4D22DF397AA00165F4E /* PBXContainerItemProxy */;
+		};
+		71A2C4DD2DF397AA00165F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A2C4C32DF397A900165F4E /* Swipy */;
+			targetProxy = 71A2C4DC2DF397AA00165F4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71A2C4E32DF397AA00165F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71A2C4E42DF397AA00165F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A2C4E62DF397AA00165F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Swipy/Swipy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.Swipy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A2C4E72DF397AA00165F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Swipy/Swipy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.Swipy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71A2C4E92DF397AA00165F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.SwipyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swipy";
+			};
+			name = Debug;
+		};
+		71A2C4EA2DF397AA00165F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.SwipyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swipy";
+			};
+			name = Release;
+		};
+		71A2C4EC2DF397AA00165F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.SwipyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swipy;
+			};
+			name = Debug;
+		};
+		71A2C4ED2DF397AA00165F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.SwipyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swipy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A2C4BF2DF397A900165F4E /* Build configuration list for PBXProject "Swipy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A2C4E32DF397AA00165F4E /* Debug */,
+				71A2C4E42DF397AA00165F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A2C4E52DF397AA00165F4E /* Build configuration list for PBXNativeTarget "Swipy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A2C4E62DF397AA00165F4E /* Debug */,
+				71A2C4E72DF397AA00165F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A2C4E82DF397AA00165F4E /* Build configuration list for PBXNativeTarget "SwipyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A2C4E92DF397AA00165F4E /* Debug */,
+				71A2C4EA2DF397AA00165F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A2C4EB2DF397AA00165F4E /* Build configuration list for PBXNativeTarget "SwipyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A2C4EC2DF397AA00165F4E /* Debug */,
+				71A2C4ED2DF397AA00165F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71A2C4F02DF39BA200165F4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71A2C4F12DF39BA200165F4E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71A2C4F02DF39BA200165F4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		71A2C4F32DF39BA200165F4E /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71A2C4F02DF39BA200165F4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		71A2C4F52DF39BA200165F4E /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71A2C4F02DF39BA200165F4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 71A2C4BC2DF397A900165F4E /* Project object */;
+}
